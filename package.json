@@ -1,0 +1,26 @@
+{
+  "name": "minimal-webgl2-screenshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:docker": "docker run -it --publish 3000:3000 $(docker build . -q)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinDurstCS/minimal-webgl2-screenshots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinDurstCS/minimal-webgl2-screenshots/issues"
+  },
+  "homepage": "https://github.com/robinDurstCS/minimal-webgl2-screenshots#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "playwright": "^1.26.1",
+    "sharp": "^0.31.1"
+  }
+}
